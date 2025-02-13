@@ -108,29 +108,7 @@ git branch -d <branch_name>
 git branch -D <branch_name>
 ```
 
-## **11. Tagging a Release**
-```sh
-# Create a new tag
-git tag -a v1.0 -m "Version 1.0"
 
-# Push tags to remote
-git push origin --tags
-```
-
-## **12. Git Stash (Temporary Save Changes)**
-```sh
-# Save changes without committing
-git stash
-
-# List stashes
-git stash list
-
-# Apply the last stashed changes
-git stash apply
-
-# Apply and remove the last stash
-git stash pop
-```
 
 ---
 This guide provides an overview of essential Git commands to get started with version control efficiently.
