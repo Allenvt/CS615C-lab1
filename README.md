@@ -84,5 +84,28 @@ git remote add origin <repository_url>
 git remote -v
 ```
 
+## **9. Undoing Changes**
+```sh
+# Undo changes to a file (before staging)
+git checkout -- <file>
 
+# Unstage a file (before committing)
+git reset <file>
+
+# Undo the last commit (but keep the changes)
+git reset --soft HEAD~1
+
+# Undo the last commit (and discard changes)
+git reset --hard HEAD~1
+```
+
+## **10. Deleting Branches**
+```sh
+# Delete a local branch
+git branch -d <branch_name>
+
+# Force delete a branch
+git branch -D <branch_name>
+```
+---
 This guide provides an overview of essential Git commands to get started with version control efficiently.
